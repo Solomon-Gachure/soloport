@@ -8,7 +8,7 @@ const Navbar = () => {
     
       <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-black text-gray-300'>
        <div>
-        <img className='w-20 rounded-full'src={Profile} alt="My profile"></img>
+        <img className='w-20  rounded-full'src={Profile} alt="My profile"></img>
        </div>
         <div>
               <ul className='hidden md:flex'>
