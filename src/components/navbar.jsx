@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Profile from "../assets/newp.png"
+import Profile from "../assets/newpr.jpeg"
 import {FaBars,FaTimes} from "react-icons/fa"
 const Navbar = () => {
     const [nav,setNav] = useState(false)
@@ -8,7 +8,7 @@ const Navbar = () => {
     
       <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-black text-gray-300'>
        <div>
-        <img className='w-20  rounded-full'src={Profile} alt="My profile"></img>
+        <img className='w-10 h-12  rounded-full'src={Profile} alt="My profile"></img>
        </div>
         <div>
               <ul className='hidden md:flex'>
