@@ -12,7 +12,7 @@ const Navbar = () => {
        </div>
         <div>
               <ul className='hidden md:flex'>
-                <li>Home</li>
+                
                   <li>About</li>
                   <li>Skills</li>
                   <li>Work</li>
@@ -22,7 +22,7 @@ const Navbar = () => {
                   {!nav ? <FaBars /> : <FaTimes />}
               </div>
               <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-black flex flex-col justify-center items-center'} >
-                  <li>Home</li>
+                  
                   <li>About</li>
                   <li>Skills</li>
                   <li>Work</li>
