@@ -6,7 +6,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 const About = () => {
   return (
-    <div name='home' className='bg-black w-full h-full'>
+    <div name='about' className='bg-black w-full h-full'>
           <div className='py-40 h-full mx-auto px-8'>
               <div className='flex justify-center py-4 '>
                   <img className='rounded-full' src={Newp} alt="Profile" style={{ width: '20%', height: '50%' }} />
